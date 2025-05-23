@@ -1,3 +1,5 @@
-liste=[3.14,2.54,"cpu","windows 10 pro","6bayt"]
-print(liste)
-#çıktı:[3.14,2.54,"cpu","windows 10 pro","6 bayt"]
+isim="Dila"
+print(isim[0]) #D
+print(isim[1]) #i
+print(isim[2]) #l
+print(isim[3]) #a

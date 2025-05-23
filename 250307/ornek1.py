@@ -1,4 +1,6 @@
-sayilar=[35,26,81,64]
-#dizide kaç tane 26 elemanı olduğunu bulunuz
-say=sayilar.count(26)
-print("listede 26 elemanı",say,"adet vardır")
+#öğrencinin sınav notu 50 nin altındaysa dersten kalır,50 nin üstündeyse dersten geçer 
+puan=int(input("not girin"))
+if puan<50:
+    print("dersten kaldınız") 
+else:
+    print("dersten geçtiniz")
